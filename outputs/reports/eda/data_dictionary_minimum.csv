@@ -1,0 +1,21 @@
+﻿VARIABLE,DESCRIPCION,TIPO_VARIABLE,TIPO_DATO,FUENTE
+REFERENCIA,Identificador único del SKU,Original,Texto,Hoja INFORME-VENTAS
+DESCRIPCIÓN,Descripción comercial del SKU,Original,Texto,Hoja INFORME-VENTAS
+FECHA,Fecha de observación mensual,Original,Fecha,Hoja INFORME-VENTAS
+VENTAS,Cantidad vendida del SKU en el periodo,Original,Numérico,Hoja INFORME-VENTAS
+STOCK,Stock disponible registrado en el periodo,Original,Numérico,Hoja INFORME-VENTAS
+record_type,"Clasificación del registro: venta observada, demanda cero registrada o falta de registro imputada a cero",Derivada,Categoría,EDA
+TOTAL_SALES,Ventas acumuladas del SKU en todo el histórico,Derivada,Numérico,EDA
+ABC_CLASS,Clasificación ABC según peso acumulado en ventas,Derivada,Categoría,EDA
+XYZ_CLASS,Clasificación XYZ según variabilidad de la demanda,Derivada,Categoría,EDA
+ABC_XYZ,Combinación de clasificaciones ABC y XYZ,Derivada,Categoría,EDA
+MEAN_MONTHLY_SALES,Promedio mensual de ventas por SKU,Derivada,Numérico,EDA
+STD_MONTHLY_SALES,Desviación estándar mensual de ventas por SKU,Derivada,Numérico,EDA
+CV,Coeficiente de variación de ventas,Derivada,Numérico,EDA
+ADI,"Average Demand Interval, proxy de intermitencia",Derivada,Numérico,EDA
+CV2,Cuadrado del coeficiente de variación,Derivada,Numérico,EDA
+DEMAND_TYPE,"Tipo de demanda: Smooth, Intermittent, Erratic o Lumpy",Derivada,Categoría,EDA
+STOCKOUT_RATE,Frecuencia mensual proxy de quiebres de stock,Derivada,Numérico,EDA
+AVG_INVENTORY_DAYS_PROXY,Días de inventario aproximados con base en ventas mensuales,Derivada,Numérico,EDA
+SERVICE_LEVEL_PROXY,Proxy de nivel de servicio basado en disponibilidad mensual,Derivada,Numérico,EDA
+INVENTORY_TURNOVER_PROXY,Rotación aproximada del inventario usando ventas mensuales promedio y stock promedio,Derivada,Numérico,EDA
